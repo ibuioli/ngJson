@@ -34,11 +34,11 @@ Import the Service in your component:
 import { JsonService } from './json.service';
 ```
 
-Then call it in your ```constructor```:
+Then call it in your ```constructor```, where ```file.json``` is the route of your file:
 
 ```
 constructor(private jsonService: JsonService) {
-   jsonService.getJson(this.jsonRute).subscribe(val => {
+   jsonService.getJson(file.json).subscribe(val => {
 
    });
 }
