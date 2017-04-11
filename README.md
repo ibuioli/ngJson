@@ -12,7 +12,7 @@ npm start
 ## For use in an existing proyect:
 
 ```
-git clone https://github.com/ibuioli/ngRoutesTrasition
+git clone https://github.com/ibuioli/ngJson
 ```
 Copy from src/app folder the file ```json.service.ts```.
 
